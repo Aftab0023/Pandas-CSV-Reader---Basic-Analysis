@@ -33,13 +33,11 @@ airbnb-eda-project/
 │   ├── high_rated.csv            # Filtered: Ratings >= 4.8
 │   ├── budget_private_rooms.csv  # Filtered: Private rooms <= $80
 │   ├── family_homes.csv          # Filtered: Houses with 2+ bedrooms
-│   └── ... 
+│   └── ...                       # Other Filter Outputs
 │
 ├── src/
-│   └── airbnb_eda_notebook.ipynb # Main Analysis Pipeline
-│
-├── requirements.txt              # Project dependencies
-└── README.md                     # Project Documentation
+    └── airbnb_eda_notebook.ipynb # Main Analysis Pipeline
+                 
 ````
 
 -----
@@ -109,16 +107,10 @@ pip install -r requirements.txt
 
 You can run the analysis via Jupyter Notebook or Python script:
 
-**Option A: Jupyter Notebook (Recommended)**
+**Jupyter Notebook (Recommended)**
 
 ```bash
 jupyter notebook src/airbnb_eda_notebook.ipynb
-```
-
-**Option B: Python Script**
-
-```bash
-python src/airbnb_eda.py
 ```
 
 -----
