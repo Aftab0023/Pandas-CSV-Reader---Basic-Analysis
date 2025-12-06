@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ⚠️ **Note:** The dataset is not included in this repo due to Kaggle licensing.
 
-1.  Download the **Airbnb Listings Dataset** from [Kaggle](https://www.kaggle.com/).
+1.  Download the **Airbnb Listings Dataset** from [Kaggle](https://www.kaggle.com/datasets/ulrikthygepedersen/airbnb-listings).
 2.  Rename the file to `airbnb_listings.csv`.
 3.  Place it inside the `data/` folder.
 
